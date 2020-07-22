@@ -1,0 +1,51 @@
+.button{
+    @include button(12*$baseUnit,3*$baseUnit);
+    cursor: btnCursor($defaultCursor);
+    border-radius: btnBorderRadius(3px);
+     @include btnFont($primaryFontColor,2px-$baseUnit); 
+    &.solid{
+      &.active{
+        background-color: btnSolid(#0648a5);
+        &:hover{
+        background-color: btnSolid(#1b3d6d);
+      }
+      }
+      &.inactive{
+        background-color: btnSolid(#a4a4a4);
+        cursor: btnCursor(not-allowed);
+        &:hover{
+          background-color: btnSolid(#1a1a1a);
+        }
+      }
+    }
+    &.line{
+      @include btnFont(#333333,2px-$baseUnit);
+      border: btnLine(1px solid #333333);
+      &.active{
+        opacity: opacityAdjust(1);
+      }
+      &.inactive{
+        opacity: opacityAdjust(0.6);
+        cursor: btnCursor(not-allowed);
+      }
+    }
+    &.iconText{
+      span{
+        margin-right: pixelMinus(4px,$baseUnit);
+        display: $basicDisplay;
+      }
+    }
+    &.iconOnly{
+      width:(3*$baseUnit);
+    }
+    &.link{
+      @include btnFont(blue,2px-$baseUnit);
+      &.active{
+        opacity: opacityAdjust(1);
+      }
+      &.inactive{
+        opacity: opacityAdjust(0.6);
+        cursor: btnCursor(not-allowed);
+      }
+    }
+  }

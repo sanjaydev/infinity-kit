@@ -1,0 +1,18 @@
+@function pixelMinus($param,$baseUnit){
+    @return $baseUnit - $param;
+  }
+  @function btnBorderRadius($borderRadius){
+    @return $borderRadius;
+  }
+  @function btnSolid($bgColor){
+    @return $bgColor;
+  }
+  @function btnLine($border){
+    @return $border;
+  }
+  @function btnCursor($defaultCursor){
+    @return $defaultCursor;
+  }
+  @function opacityAdjust($value){
+    @return $value;
+  }
