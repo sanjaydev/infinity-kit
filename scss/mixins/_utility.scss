@@ -2,7 +2,7 @@
     @return $base-unit - $param;
   }
   @function btn-border-radius($border-radius){
-    @return $borderRadius;
+    @return $border-radius;
   }
   @function btn-solid($bg-color){
     @return $bg-color;
