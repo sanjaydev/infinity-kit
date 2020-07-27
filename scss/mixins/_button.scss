@@ -1,9 +1,9 @@
-@mixin btn-font ($text-color, $text-size) {
-  color: $text-color;
-  font-size: $text-size;
+@mixin btnFont ($textColor, $textSize) {
+  color: $textColor;
+  font-size: $textSize;
 }
 @mixin button ($width, $height) {
-  width: $width;
+  min-width: $width;
   height: $height;
   display: $basic-display;
   align-items: $center-alignment;
