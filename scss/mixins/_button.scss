@@ -1,13 +1,13 @@
-@mixin btnFont ($textColor, $textSize) {
-  color: $textColor;
-  font-size: $textSize;
+@mixin btn-font ($text-color, $text-size) {
+  color: $text-color;
+  font-size: $text-size;
 }
 @mixin button ($width, $height) {
   width: $width;
   height: $height;
-  display: $basicDisplay;
-  align-items: $centerAlignment;
-  justify-content: $centerAlignment;
-  position: $basePosition;
-  font-family: $baseFontFamily;
+  display: $basic-display;
+  align-items: $center-alignment;
+  justify-content: $center-alignment;
+  position: $base-position;
+  font-family: $base-font-family;
 }

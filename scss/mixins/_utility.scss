@@ -1,18 +1,18 @@
-@function pixelMinus($param,$baseUnit){
-    @return $baseUnit - $param;
+@function pixel-minus($param,$base-unit){
+    @return $base-unit - $param;
   }
-  @function btnBorderRadius($borderRadius){
+  @function btn-border-radius($border-radius){
     @return $borderRadius;
   }
-  @function btnSolid($bgColor){
-    @return $bgColor;
+  @function btn-solid($bg-color){
+    @return $bg-color;
   }
-  @function btnLine($border){
+  @function btn-line($border){
     @return $border;
   }
-  @function btnCursor($defaultCursor){
-    @return $defaultCursor;
+  @function btn-cursor($default-cursor){
+    @return $default-cursor;
   }
-  @function opacityAdjust($value){
+  @function opacity-adjust($value){
     @return $value;
   }

@@ -1,51 +1,51 @@
 .button{
-    @include button(12*$baseUnit,3*$baseUnit);
-    cursor: btnCursor($defaultCursor);
-    border-radius: btnBorderRadius(3px);
-     @include btnFont($primaryFontColor,2px-$baseUnit); 
-    &.solid{
-      &.active{
-        background-color: btnSolid(#0648a5);
-        &:hover{
-        background-color: btnSolid(#1b3d6d);
+    @include button(12*$base-unit,3*$base-unit);
+    cursor: btn-cursor($default-cursor);
+    border-radius: btn-border-radius(3px);
+     @include btn-font($primary-font-color,2px-$base-unit); 
+    &.solid {
+      &.active {
+        background-color: btn-solid(#0648a5);
+        &:hover {
+        background-color: btn-solid(#1b3d6d);
       }
       }
       &.inactive{
-        background-color: btnSolid(#a4a4a4);
-        cursor: btnCursor(not-allowed);
+        background-color: btn-solid(#a4a4a4);
+        cursor: btn-cursor(not-allowed);
         &:hover{
-          background-color: btnSolid(#1a1a1a);
+          background-color: btn-solid(#1a1a1a);
         }
       }
     }
     &.line{
-      @include btnFont(#333333,2px-$baseUnit);
-      border: btnLine(1px solid #333333);
+      @include btn-font(#333333,2px-$base-unit);
+      border: btn-line(1px solid #333333);
       &.active{
-        opacity: opacityAdjust(1);
+        opacity: opacity-adjust(1);
       }
       &.inactive{
-        opacity: opacityAdjust(0.6);
-        cursor: btnCursor(not-allowed);
+        opacity: opacity-adjust(0.6);
+        cursor: btn-cursor(not-allowed);
       }
     }
     &.iconText{
       span{
-        margin-right: pixelMinus(4px,$baseUnit);
-        display: $basicDisplay;
+        margin-right: pixel-minus(4px,$base-unit);
+        display: $basic-display;
       }
     }
     &.iconOnly{
-      width:(3*$baseUnit);
+      width:(3*$base-unit);
     }
     &.link{
-      @include btnFont(blue,2px-$baseUnit);
+      @include btn-font(blue,2px-$base-unit);
       &.active{
-        opacity: opacityAdjust(1);
+        opacity: opacity-adjust(1);
       }
       &.inactive{
-        opacity: opacityAdjust(0.6);
-        cursor: btnCursor(not-allowed);
+        opacity: opacity-adjust(0.6);
+        cursor: btn-cursor(not-allowed);
       }
     }
   }

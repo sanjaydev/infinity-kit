@@ -1,0 +1,16 @@
+Step 1:
+Install Ruby with (https://rubyinstaller.org/downloads/) in you local system
+
+Step 2:
+Take a pull from master branch
+
+Step 3:
+Go to project directory and run command:
+    1) gem install sass
+    2) gem install compass
+
+Step 4: 
+Run command "compass watch" while working to watch scss file.
+
+End! 
+Thanks

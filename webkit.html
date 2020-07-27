@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://mumbai.qacc.tech/css-min/infinity-webkit.min.css?v=v0.1.46.1244.16036"  rel="stylesheet" type="text/css" />
+    <link href="https://mumbai.qacc.tech/css-min/infinity-web.min.css?v=v0.1.46.1244.16036"  rel="stylesheet" type="text/css" />
+    <link href="css/webkitDocumentation.css" rel="stylesheet" type="text/css" />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+   <header class="header">
+        <ul>
+            <li>Home</li>
+            <li>Documentation</li>
+        </ul>
+   </header>
+
+   <div class="detailPage">
+   <nav class="firstLayout">
+        <ul>
+            <li>Layout</li>
+            <li>
+                Component
+                <ul>
+                    <li><a href="javascrip:void(0);">Alert</a></li>
+                    <li><a href="javascrip:void(0);">Badge</a></li>
+                    <li><a href="javascrip:void(0);">Button</a></li>
+                    <li><a href="javascrip:void(0);">Button Group</a></li>
+                    <li><a href="javascrip:void(0);">Card</a></li>
+                    <li><a href="javascrip:void(0);">Collapse</a></li>
+                    <li><a href="javascrip:void(0);">Dropdowns</a></li>
+                    <li><a href="javascrip:void(0);">Forms</a></li>
+                    <li><a href="javascrip:void(0);">Input group</a></li>
+                    <li><a href="javascrip:void(0);">Modal</a></li>
+                    <li><a href="javascrip:void(0);">Navs</a></li>
+                    <li><a href="javascrip:void(0);">Pagination</a></li>
+                    <li><a href="javascrip:void(0);">Popover</a></li>
+                    <li><a href="javascrip:void(0);">Progress</a></li>
+                    <li><a href="javascrip:void(0);">Scrollspy</a></li>
+                    <li><a href="javascrip:void(0);">Toasts</a></li>
+                    <li><a href="javascrip:void(0);">Tooltip</a></li>
+                </ul>
+            </li>
+            <li>Utilities</li>
+        </ul>
+   </nav>
+   <section class="secondLayout">
+       <div class="mt__1">
+            <h1 class="mb">Buttons</h1>
+            <p>Bootstrap includes several predefined button styles, each serving its own semantic purpose, with a few extras thrown in for more control.</p>
+     
+            <div class="liveExample mt__1">
+                <button type="button" class="btn buttonGradient">Main Button</button>
+                
+                <button type="button" class="btn link">Main Button</button>
+                <button type="button" class="btn link">Link Button</button>
+            </div>
+     
+            <figure class="exampleCode">
+                     <pre>
+                         <code data-lang="html">
+                             <span class="el">&#60;button</span>
+                             <span class="el"> type</span>
+                             <span class="el">"button" </span>
+                             <span class="cls">class=</span>
+                             <span class="cls">"btn buttonGradient"</span>
+                             <span class="el">&gt;</span>
+                             <span class="vlu"></span>Main Button<span class="el">&lt;/button&gt;</span>
+                         </code>
+                     </pre>
+                     
+                     <pre>
+                        <code data-lang="html">
+                            <span class="el">&#60;button</span>
+                            <span class="el"> type</span>
+                            <span class="el">"button" </span>
+                            <span class="cls">class=</span>
+                            <span class="cls">"btn link"</span>
+                            <span class="el">&gt;</span>
+                            <span class="vlu"></span>Main Button Link<span class="el">&lt;/button&gt;</span>
+                        </code>
+                    </pre>
+                     <pre>
+                         <code data-lang="html">
+                             <span class="el">&#60;a</span>
+                             <span class="el"> href</span>
+                             <span class="js">"javascript(void:0);" </span>
+                             <span class="cls">class=</span>
+                             <span class="cls">"btn buttonGradient"</span>
+                             <span class="el">&gt;</span>
+                             <span class="vlu"></span>Link Button<span class="el">&lt;/a&gt;</span>
+                         </code>
+                     </pre>
+            </figure>
+       </div>
+
+       <div class="mt__1">
+            <h1 class="mb">Button Disabled State</h1>
+            <p>Make buttons look inactive by adding the <span class="cls">disabled</span> boolean attribute to any <span class="el">&#60;button&gt;</span> or <span class="el">&#60;a&gt;</span> element.</p>
+
+            <div class="liveExample mt__1">
+                <button type="button" class="btn buttonGradient dissabled">Main Button</button>
+                <button type="button" class="btn link dissabled">Button Disabled</button>
+            </div>
+            <figure class="exampleCode">
+                <pre>
+                    <code data-lang="html">
+                        <span class="el">&#60;button</span>
+                        <span class="el"> type</span>
+                        <span class="el">"button" </span>
+                        <span class="cls">class=</span>
+                        <span class="cls">"btn buttonGradient dissabled"</span>
+                        <span class="el">&gt;</span>
+                        <span class="vlu"></span>Button Main Disabled<span class="el">&lt;/button&gt;</span>
+                    </code>
+                </pre>
+                <pre>
+                    <code data-lang="html">
+                        <span class="el">&#60;a</span>
+                        <span class="el"> href</span>
+                        <span class="js">"javascript(void:0);" </span>
+                        <span class="cls">class=</span>
+                        <span class="cls">"btn dissabled"</span>
+                        <span class="el">&gt;</span>
+                        <span class="vlu"></span>Button Link Disabled<span class="el">&lt;/a&gt;</span>
+                    </code>
+                </pre>
+            </figure>
+       </div>
+
+       <div class="mt__1">
+        <h1 class="mb">Button Hover State</h1>
+        <p>Make buttons look inactive by adding the <span class="cls">disabled</span> boolean attribute to any <span class="el">&#60;button&gt;</span> or <span class="el">&#60;a&gt;</span> element.</p>
+
+        <div class="liveExample mt__1">
+            <button type="button" class="btn buttonGradient hover">Main Button Hover</button>
+            <button type="button" class="btn link">Link Button Hover</button>
+        </div>
+        <figure class="exampleCode">
+            <pre>
+                <code data-lang="html">
+                    <span class="el">&#60;button</span>
+                    <span class="el"> type</span>
+                    <span class="el">"button" </span>
+                    <span class="cls">class=</span>
+                    <span class="cls">"btn buttonGradient dissabled"</span>
+                    <span class="el">&gt;</span>
+                    <span class="vlu"></span>Button Main Disabled<span class="el">&lt;/button&gt;</span>
+                </code>
+            </pre>
+            <pre>
+                <code data-lang="html">
+                    <span class="el">&#60;a</span>
+                    <span class="el"> href</span>
+                    <span class="js">"javascript(void:0);" </span>
+                    <span class="cls">class=</span>
+                    <span class="cls">"btn dissabled"</span>
+                    <span class="el">&gt;</span>
+                    <span class="vlu"></span>Button Link Disabled<span class="el">&lt;/a&gt;</span>
+                </code>
+            </pre>
+        </figure>
+   </div>
+
+   <div class="mt__1">
+        <h1 class="mb">Dropdown</h1>
+        <p></p>
+
+        <div class="liveExample mt__1" style="min-height: 215px;">
+            <div class="dropDown h__24 active">
+                <span class="icon">click</span>
+                <div class="dropDownMenu onClick">
+                    <a href="javascript:void(0);">listing 1</a>
+                    <a href="javascript:void(0);">listing 2</a>
+                    <a href="javascript:void(0);">listing 3</a>
+                </div>
+            </div>
+
+            <div class="dropDown h__24 active" style="margin-left: 200px">
+                <span class="icon">click</span>
+                <div class="dropDownMenu onClick">
+                    <header class="header"><label>Notes</label></header>
+                    <a href="javascript:void(0);">listing 1</a>
+                    <a href="javascript:void(0);">listing 2</a>
+                    <a href="javascript:void(0);">listing 3</a>
+                </div>
+            </div>
+
+            <div class="dropDown h__24 active" style="margin-left: 200px">
+                    <span class="icon">click</span>
+                    <div class="dropDownMenu onClick">
+                        <header class="header"><label>Notes</label></header>
+                        <a href="javascript:void(0);"><input type="checkbox" id="abc" /> <label for="abc">listing 1</label></a>
+                        <a href="javascript:void(0);"><input type="checkbox" id="def" /> <label for="def">listing 2</label></a>
+                        <a href="javascript:void(0);"><input type="checkbox" id="ghi" /> <label for="ghi">listing 3</label></a>
+                        <footer><a href="javascript:void(0);">Save</a> <a href="javascript:void(0);">cancel</a></footer>
+                    </div>
+                </div>
+        </div>
+        <figure class="exampleCode">
+            <pre>
+                <code data-lang="html">
+                    <span class="el">&#60;div</span>
+                    <span class="cls"> class="dropDown h__24 active"</span>
+                    <span class="el">&gt;</span>
+                </code>
+                <code class="ml__1">
+                    <span class="el">&#60;span</span>
+                    <span class="cls"> class="icon</span>
+                    <span class="el">&gt;</span>
+                    <span class="el">&#60;/span</span>
+                    <span class="el">&gt;</span>
+                </code>
+                <code class="ml__1">
+                    <span class="el">&#60;div</span>
+                    <span class="cls"> class="dropDownMenu onClick"</span>
+                    <span class="el">&gt;</span>
+                </code>
+                <code class="indent2">
+                    <span class="el">&#60;a href=</span>
+                    <span class="js">"javascript(void:0);"</span>
+                    <span class="el">&gt;</span>
+                    <span>List 1</span>
+                    <span class="el">&#60;/a&gt;</span>
+                </code>
+                <code class="indent2">
+                    <span class="el">&#60;a href=</span>
+                    <span class="js">"javascript(void:0);"</span>
+                    <span class="el">&gt;</span>
+                    <span>List 1</span>
+                    <span class="el">&#60;/a&gt;</span>
+                </code>
+                <code class="indent2">
+                    <span class="el">&#60;a href=</span>
+                    <span class="js">"javascript(void:0);"</span>
+                    <span class="el">&gt;</span>
+                    <span>List 1</span>
+                    <span class="el">&#60;/a&gt;</span>
+                </code>
+                <code class="ml__1">
+                    <span class="el">&#60;/div&gt;</span>
+                </code>
+                <code>
+                    <span class="el">&#60;/div&gt;</span>
+                </code>
+            </pre>
+
+            <pre>
+                <code data-lang="html">
+                    <span class="el">&#60;div</span>
+                    <span class="cls"> class="dropDown h__24 active"</span>
+                    <span class="el">&gt;</span>
+                </code>
+                <code class="ml__1">
+                    <span class="el">&#60;span</span>
+                    <span class="cls"> class="icon</span>
+                    <span class="el">&gt;</span>
+                    <span class="el">&#60;/span</span>
+                    <span class="el">&gt;</span>
+                </code>
+                <code class="ml__1">
+                    <span class="el">&#60;div</span>
+                    <span class="cls"> class="dropDownMenu onClick"</span>
+                    <span class="el">&gt;</span>
+                </code>
+                <code class="indent2">
+                    <span class="el">&#60;header </span>
+                    <span class="cls">class="header"</span>
+                    <span class="el">&gt;&#60;label&gt;<span class="vlu">Notes</span>&#60;/label&gt;&#60;/header&gt;</span>
+                </code>
+                <code class="indent2">
+                    <span class="el">&#60;a href=</span>
+                    <span class="js">"javascript(void:0);"</span>
+                    <span class="el">&gt;</span>
+                    <span>List 1</span>
+                    <span class="el">&#60;/a&gt;</span>
+                </code>
+                <code class="indent2">
+                    <span class="el">&#60;a href=</span>
+                    <span class="js">"javascript(void:0);"</span>
+                    <span class="el">&gt;</span>
+                    <span>List 1</span>
+                    <span class="el">&#60;/a&gt;</span>
+                </code>
+                <code class="indent2">
+                    <span class="el">&#60;a href=</span>
+                    <span class="js">"javascript(void:0);"</span>
+                    <span class="el">&gt;</span>
+                    <span>List 1</span>
+                    <span class="el">&#60;/a&gt;</span>
+                </code>
+                <code class="ml__1">
+                    <span class="el">&#60;/div&gt;</span>
+                </code>
+                <code>
+                    <span class="el">&#60;/div&gt;</span>
+                </code>
+            </pre>
+            
+        </figure>
+    </div>
+   </section>
+   <aside class="thirdLayout"></aside>
+</div>
+  </body>
+</html>
